@@ -1,0 +1,25 @@
+SMART-PARKING-FINAL-PROJECT/
+├── streamlit_app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── src/
+│   ├── __init__.py
+│   ├── occupancy_detection.py
+│   ├── visualization.py
+│   └── utils.py
+├── tests/
+│   └── test_detection.py
+├── data/
+│   ├── input/
+│   ├── annotations/
+│   └── processed/
+├── models/
+│   ├── config/
+│   └── weights/
+├── outputs/
+└── docs/
+    ├── PRD_Smart_Parking_Occupancy_Detection.docx
+    ├── TRD_Smart_Parking_Occupancy_Detection.docx
+    ├── FRD_Smart_Parking_Occupancy_Detection.docx
+    └── Synopsis_Smart_Parking_Occupancy_Detection.docx

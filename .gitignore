@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+.venv/
+venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local data, generated outputs, and model weights
+data/input/*
+data/processed/*
+outputs/*
+models/weights/*
+!data/input/.gitkeep
+!data/processed/.gitkeep
+!outputs/.gitkeep
+!models/weights/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
